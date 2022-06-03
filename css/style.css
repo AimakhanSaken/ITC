@@ -1,0 +1,108 @@
+@import './fonts.css';
+.container {
+    max-width: 1320px;
+    margin: 0 auto; 
+}
+.colortext {
+    color: #1DBF73;
+}
+a {
+    text-decoration: none;
+}
+.main_header {
+    display: flex;
+    flex-direction: column;
+}
+li {
+    list-style-type: none;
+}
+.top_nav {
+    display: flex;
+    top: 26px;
+    align-items: center; 
+}
+.top_nav__menu {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+    margin-left: 60px;
+}
+.top_nav__link {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+.top_nav__buttons button {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1DBF73;
+    background-color: #F2F0FE;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 25px;
+}
+.top_nav__buttons button:hover {
+    background: #1DBF73;
+    color: #F2F0FE;
+}
+.registr {
+    margin-left: 166px;
+}
+.enter {
+    margin-left: 30px;
+}
+.content_one__left {
+    max-width: 591px;
+    padding-top: 133px;
+}
+.zagolovok {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: 0.05em;
+    color: #222222;
+}
+.zagolovok_two {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #222222;
+}
+form {
+    padding-top: 50px;
+}
+input {
+    width: 532px;
+    height: 60px;
+    background: #F2F0FE;
+    border: none;
+    border-radius: 50px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+.nayti {
+    width: 154px;
+    height: 60px;
+    background: #FBA457;
+    color: #F6FAFD;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    border-radius: 50px;
+    border: none;
+}
