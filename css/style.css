@@ -582,7 +582,7 @@ img {
     cursor: pointer;
 }
 .freelancer-item__birzha:hover {
-    
+    box-shadow: -9px 21px 39px 0px rgba(34, 60, 80, 0.2);
 }
 .freelance_card__title_right {
     color: #1DBF73;
@@ -609,4 +609,27 @@ img {
 }
 .freelancer-item__birzha_right {
     text-align: end;
+}
+.zagryzit_eshe {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.birzha_button {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #1DBF73;
+    width: 250px;
+    border: 1px solid #1DBF73;
+    border-radius: 50px;
+    height: 60px;
+    background: none;
+}
+.three_birzha {
+    background: #F2F0FE;
+    margin-top: 60px;
+}
+.footer_birzha {
+    padding-top: 50px;
 }
