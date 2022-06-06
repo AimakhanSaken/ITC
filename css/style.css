@@ -528,6 +528,7 @@ img {
     display: flex;
     align-items: baseline;
     justify-content: space-between;
+    margin-top: 60px;
 }
 .sec_two__buttons_top {
     display: flex;
