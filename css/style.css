@@ -453,6 +453,29 @@ img {
 .one_birzha {
     background: #F7F6FF;
 }
+.birzha_centr {
+    padding-bottom: 130px;
+}
+.backimg1 {
+    position: absolute;
+    bottom: -5%;
+    left: 5%;
+}
+.backimg2 {
+    position: absolute;
+    bottom: 40%;
+    right: 25%;
+}
+.backimg3 {
+    position: absolute;
+    bottom: -10%;
+    right: 15%;
+}
+.backimg4 {
+    position: absolute;
+    bottom: -66%;
+    left: 20%;
+}
 .top_nav__specialist {
     display: flex;
     align-items: center;
@@ -630,6 +653,7 @@ img {
 .three_birzha {
     background: #F2F0FE;
     margin-top: 60px;
+    padding-bottom: 100px;
 }
 .footer_birzha {
     padding-top: 50px;
