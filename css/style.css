@@ -2,6 +2,9 @@
 * { 
     margin: 0; 
     padding: 0; 
+}
+*, *::before, *::after {
+    box-sizing: border-box;
 } 
 body { 
     font-family: 'Montserrat', sans-serif; 
@@ -216,9 +219,9 @@ img {
 } 
 .work_card__button { 
     display: block; 
-    width: 380px; 
+    width: 100%; 
     height: 31px; 
-    padding-top: 12px; 
+    padding-top: 7px; 
     border: 1px solid #1DBF73; 
     border-radius: 50px; 
     font-style: normal; 
@@ -249,7 +252,7 @@ img {
 } 
 .button-all { 
     width: 378px; 
-    min-height: 230px; 
+    min-height: 275px; 
     padding: 20px; 
     margin-right: 20px; 
     margin-bottom: 30px;   
@@ -298,9 +301,9 @@ img {
 } 
 .freelancer_card_button { 
     display: block; 
-    width: 380px; 
+    width: 100%; 
     height: 31px; 
-    padding-top: 12px; 
+    padding-top: 7px; 
     border: 1px solid #1DBF73; 
     border-radius: 50px; 
     font-style: normal; 
@@ -706,7 +709,6 @@ img {
     .burger__top_nav { 
         display: block; 
         position: relative; 
-        z-index: 99; 
         width: 40px; 
         height: 31px; 
     } 
@@ -833,5 +835,62 @@ img {
     } 
     .freelancer__wrapper { 
         flex-direction: column; 
-    } 
+    }
+    .benefit_content {
+        width: 400px;
+    }
+    .five_heading {
+        text-align: center;
+    }
+    .three_benefits {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .bottom__description {
+        text-align: center;
+    }
+    .five_button {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 830px) {
+    .logo {
+        width: 80%;
+    }
+    .top_nav__buttons {
+        padding-right: 50px;
+    }
+    .top_nav__buttons button {
+        padding: 10px 15px;
+    }
+    .enter {
+        margin-left: 10px;
+    }
+}
+@media screen and (max-width: 740px) {
+    .zagolovok {
+        font-size: 28px;
+    }
+    .zagolovok_two {
+        font-size: 16px;
+    }
+    .whattodo, .nayti {
+        height: 45px;
+    }
+    .burger__top_nav {
+        margin-left: 70px;
+    }
+}
+@media screen and (max-width: 660px) {
+    .top_nav__buttons {
+        padding-right: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .registr {
+        margin-bottom: 10px;
+    }
 }
